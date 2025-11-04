@@ -16,4 +16,7 @@ public class Cliente {
     @Required  // Se mostrará un error de validación si la propiedad nombre se deja en blanco
     String nombre;
 
+    @Embedded
+    Direccion direccion;
+
 }
